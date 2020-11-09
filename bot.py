@@ -124,7 +124,7 @@ async def help(ctx):
     await ctx.send('Команды бота:\n'
                    '!hello - Поздороваться с ботом\n'
                    '!echo - эхо\n'
-                   '!clear [количество сообщений+1] - Стереть сообщения'
+                   '!clear [количество сообщений+1] - Стереть сообщения\n'
                    '!kick - Кикнуть кого-либо (Использование только Администраторами)\n'
                    '!ban - Забанить кого-либо (Использование только Администраторами)\n'
                    '!unban - Разбанить кого-либо (Использование только Администраторами)\n'
@@ -137,35 +137,39 @@ async def help(ctx):
 
 @client.command()
 async def help_me(ctx):
-    await ctx.send('Help!\n'
-                   'I need somebody\n'
-                   '(Help!) not just anybody\n'
-                   '(Help!) you know I need someone\n'
-                   'Heeeeeeeeeeeelp!\n'
-                   'I never needed anybodys help in any way\n'
-                   'But now these days are gone, I am not so self assured (but now these days are gone)\n'
-                   '(And now I find) Now I find Ive changed my mind and opened up the doors\n'
-                   'Help me if you can, Im feeling down\n'
-                   'And I do appreciate you being round\n'
-                   'Help me get my feet back on the ground\n'
-                   'Wont you please, please help me?\n'
-                   'And now my life has changed in oh so many ways (and now my life has changed)\n'
-                   'My independence seems to vanish in the haze\n'
-                   'But every now and then I feel so insecure (I know that I)\n'
-                   'I know that I just need you like Ive never done before\n'
-                   'Help me if you can, Im feeling down\n'
-                   'And I do appreciate you being round\n'
-                   'Help me get my feet back on the ground\n'
-                   'Wont you please, please help me\n'
-                   'When I was younger, so much younger than today\n'
-                   'I never needed anybodys help in any way\n'
-                   'But now these days are gone, Im not so self assured (but now these days are gone)\n'
-                   '(And now I find) now I find I ve changed my mind and opened up the doors\n'
-                   'Help me if you can, Im feeling down\n'
-                   'And I do appreciate you being round\n'
-                   'Help me get my feet back on the ground\n'
-                   'Wont you please, please help me, help me, help me, ooh\n'
-                   'Трек был подготовлен специально для человека судьбы...\n')
+    await ctx.send('Help!')
+    await ctx.send('I need somebody')
+    await ctx.send('(Help!) not just anybody')
+    await ctx.send('(Help!) you know I need someone')
+    await ctx.send('Heeeeeeeeeeeelp!')
+    await ctx.send('I never needed anybodys help in any way')
+    await ctx.send('But now these days are gone, I am not so self assured (but now these days are gone)')
+    await ctx.send('(And now I find) Now I find Ive changed my mind and opened up the doors')
+    await ctx.send('Help me if you can, Im feeling down')
+    await ctx.send('And I do appreciate you being round')
+    await ctx.send('Help me get my feet back on the ground')
+    await ctx.send('Wont you please, please help me?')
+    await ctx.send('And now my life has changed in oh so many ways (and now my life has changed)')
+    await ctx.send('My independence seems to vanish in the haze')
+    await ctx.send('But every now and then I feel so insecure (I know that I)')
+    await ctx.send('I know that I just need you like Ive never done before')
+    await ctx.send('Help me if you can, Im feeling down')
+    await ctx.send('And I do appreciate you being round')
+    await ctx.send('Help me get my feet back on the ground')
+    await ctx.send('Wont you please, please help me')
+    await ctx.send('When I was younger, so much younger than today')
+    await ctx.send('I never needed anybodys help in any way')
+    await ctx.send('But now these days are gone, Im not so self assured (but now these days are gone)')
+    await ctx.send('(And now I find) now I find I ve changed my mind and opened up the doors')
+    await ctx.send('Help me if you can, Im feeling down')
+    await ctx.send('And I do appreciate you being round')
+    await ctx.send('Help me get my feet back on the ground')
+    await ctx.send('Wont you please, please help me, help me, help me, ooh')
+    await ctx.send('↓')
+    await ctx.send('↓')
+    await ctx.send('↓')
+    await ctx.send('↓')
+    await ctx.send('Трек был подготовлен специально для человека судьбы...')
 
 
 # Connect

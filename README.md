@@ -1,5 +1,8 @@
 # simple-discord-bot-python
  this is my first python development experience
+ 
+ В файл token.txt вставьте токен вашего бота, и запустите Server.bat
+ 
 Команды бота:
 !hello - Поздороваться с ботом
 !echo - эхо

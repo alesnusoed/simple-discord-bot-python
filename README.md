@@ -1,4 +1,4 @@
-# simple-discord-bot-python
+# 🤖simple-discord-bot-python
 
 ### 🚀Запуск бота:
 В файл token.txt вставьте токен вашего бота, и запустите Server.bat
